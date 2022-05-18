@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: pink;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+}
+
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/background.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.inicio{
+    display: flex;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+}
+
+.inicio .max-width{
+    margin: auto 0 auto 40px;
+}
+
+.inicio .conteudo-inicio .texto-1{
+    font-size: 27px;
+}
+
+.inicio .conteudo-inicio .texto-2{
+    font-size: 34px;
+}
+
+.inicio .conteudo-inicio .texto-3{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+
+}
+
+.inicio .conteudo-inicio .texto-4{
+    font-size: 27px;
+    margin: 5px 0;
+
+}
+
+.inicio .conteudo-inicio .texto-3 span{
+    color: pink;
+    font-weight: 500;
+}
+
+.inicio .conteudo-inicio a{
+    display: inline-block;
+    background: pink;
+    color: black;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid pink;
+    transition: all 0.3s ease;
+}
+
+.inicio .conteudo-inicio a:hover{
+    color: #fff;
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1104px){
+    .inicio .max-width{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 991px){
+    .max-width{
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 947px){
+   
+    .inicio .conteudo-inicio .texto-2{
+        font-size: 70px;
+    }
+
+    .inicio .conteudo-inicio .texto-3{
+        font-size: 35px;
+    }
+
+    .inicio .conteudo-inicio a{
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+
+}
+
+@media (max-width: 690px){
+
+    .max-width{
+        padding: 0 23px;
+    }
+    
+    .inicio .conteudo-inicio .texto-2{
+        font-size: 60px;
+    }
+
+    .inicio .conteudo-inicio .texto-3{
+        font-size: 32px;
+    }
+
+    .inicio .conteudo-inicio a{
+        font-size: 20px;
+        padding: 9px 25px;
+    }
+}
+
+@media (max-width: 500px){
+
+    .inicio .conteudo-inicio .texto-2{
+        font-size: 50px;
+    }
+
+    .inicio .conteudo-inicio .texto-3{
+        font-size: 27px;
+    }
+}
