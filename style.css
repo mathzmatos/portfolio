@@ -148,6 +148,10 @@ body{
     margin: 5px 0;
 }
 
+.inicio .conteudo-inicio .texto-8 {
+    text-decoration: none;
+}
+
 
 
 @media (max-width: 1104px){
