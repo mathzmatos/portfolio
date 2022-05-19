@@ -123,25 +123,10 @@ body{
     margin: 5px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.inicio .conteudo-inicio .cv a{
+    font-size: 15px;
+    margin: 2px 0;
+}
 
 
 
@@ -166,6 +151,8 @@ body{
     .inicio .conteudo-inicio .texto-3{
         font-size: 35px;
     }
+
+    
 
     .inicio .conteudo-inicio a{
         font-size: 23px;
