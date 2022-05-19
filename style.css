@@ -66,7 +66,7 @@ body{
     font-weight: 500;
 }
 
-.inicio .conteudo-inicio a{
+.inicio .conteudo-inicio .buttons a{
     display: inline-block;
     background: pink;
     color: black;
@@ -83,6 +83,26 @@ body{
     color: #fff;
     background: none;
 }
+
+.inicio .conteudo-inicio .cv a{
+    display: inline-block;
+    background: pink;
+    color: black;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid pink;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.inicio .conteudo-inicio .cv a:hover{
+    color: #fff;
+    background: none;
+}
+
+
 
 .inicio .conteudo-inicio .sobremim{
     font-size: 34px;
@@ -145,19 +165,21 @@ body{
 @media (max-width: 947px){
    
     .inicio .conteudo-inicio .texto-2{
-        font-size: 70px;
+        font-size: 35px;
     }
 
     .inicio .conteudo-inicio .texto-3{
-        font-size: 35px;
+        font-size: 60px;
     }
 
     
 
-    .inicio .conteudo-inicio a{
+    .inicio .conteudo-inicio .buttons a{
         font-size: 23px;
         padding: 10px 30px;
     }
+
+
 
 }
 
@@ -168,14 +190,19 @@ body{
     }
     
     .inicio .conteudo-inicio .texto-2{
-        font-size: 60px;
-    }
-
-    .inicio .conteudo-inicio .texto-3{
         font-size: 32px;
     }
 
-    .inicio .conteudo-inicio a{
+    .inicio .conteudo-inicio .texto-3{
+        font-size: 60px;
+    }
+
+    .inicio .conteudo-inicio .buttons a{
+        font-size: 20px;
+        padding: 9px 25px;
+    }
+
+    .inicio .conteudo-inicio .cv a{
         font-size: 20px;
         padding: 9px 25px;
     }
@@ -184,10 +211,10 @@ body{
 @media (max-width: 500px){
 
     .inicio .conteudo-inicio .texto-2{
-        font-size: 50px;
+        font-size: 27px;
     }
 
     .inicio .conteudo-inicio .texto-3{
-        font-size: 27px;
+        font-size: 50px;
     }
 }
