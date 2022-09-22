@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+
     
 }
 
@@ -80,6 +81,9 @@ body{
     text-align: center;
     margin: 25px 0px;
     color: pink;
+    
+   
+
 }
 
 h5{
@@ -124,6 +128,8 @@ h5{
 }
 
 
+
+
 .inicio{
     display: flex;
     height: 100vh;
@@ -160,6 +166,8 @@ h5{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
+    font-family: 'Ms Madi', cursive;
+    margin-bottom: 40px;
 
 }
 
@@ -172,6 +180,7 @@ h5{
 .inicio .conteudo-inicio .texto-3 span{
     color: pink;
     font-weight: 500;
+    
 }
 
 .inicio .conteudo-inicio .buttons a{
