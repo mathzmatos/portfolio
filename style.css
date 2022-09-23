@@ -146,13 +146,20 @@ h5{
     
 }
 
+
+.texto-1 span {
+    font-family: 'Ms Madi', cursive;
+
+}
+
 .inicio .conteudo-inicio .texto-1{
-    font-size: 27px;
+    font-size: 37px;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 200px;
     text-align: center;
+
    
 }
 
