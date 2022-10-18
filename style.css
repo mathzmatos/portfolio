@@ -37,7 +37,7 @@ img{
 
 
 body{
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/solidbg.jpg);
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.644)),url(images/solidbg.jpg);
     min-height: 100vh;
     font-size: 20px;
     display: block;
@@ -62,8 +62,8 @@ body{
 }
 
 .card {
-    height: flex;
-    width: flex;
+    height: 26rem;
+    width: 30rem;
     padding: 20px 35px;
     background: #1e01382e;
     border-radius: 20px;
@@ -76,6 +76,44 @@ body{
 }
 
 .card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: pink;
+    
+   
+
+}
+
+.box-projeto {
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 10px;
+    left: 200px;
+    top: 150px;
+    width: 31%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card-projeto {
+    height: 40rem;
+    width: 30rem;
+    padding: 20px 35px;
+    background: #1e01382e;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    top: 20px;
+    
+}
+
+.card-projeto i{
     font-size: 50px;
     display: block;
     text-align: center;
@@ -278,7 +316,13 @@ h5{
     text-decoration: none;
 }
 
-@media (max-width: 1710px){
+
+
+
+
+
+
+@media (max-width: 1900px){
     
     .box {
     
@@ -287,9 +331,52 @@ h5{
         min-height: 10px;
         left: 200px;
         top: 150px;
-        width: 100%;
+        width: 30.6%;
         float: left;
         padding: 10px;
+        
+    }
+
+    .card {
+        height: 30rem;
+        width: 20rem;
+        padding: 20px 35px;
+        background: #1e01382e;
+        border-radius: 20px;
+        margin: 15px;
+        position: center;
+        overflow: hidden;
+        text-align: relative;
+        top: 20px;
+        margin-bottom: 5rem;
+        
+    }
+
+    .box-projeto {
+    
+        justify-content: center;
+        align-items: center;
+        min-height: 10px;
+        left: 200px;
+        top: 150px;
+        width: 30.6%;
+        float: left;
+        padding: 10px;
+        
+    }
+
+    .card-projeto {
+        height: 45rem;
+        width: 15rem;
+        padding: 20px 35px;
+        background: #1e01382e;
+        border-radius: 20px;
+        margin: 15px;
+        position: center;
+        overflow: hidden;
+        text-align: relative;
+        top: 20px;
+        margin-bottom: 2rem;
         
     }
 
@@ -310,8 +397,55 @@ h5{
         width: 100%;
         float: left;
         padding: 10px;
+        
     }
 
+    .card {
+        height: 37rem;
+        width: 14rem;
+        padding: 20px 35px;
+        background: #1e01382e;
+        border-radius: 20px;
+        margin: 15px;
+        position: center;
+        overflow: hidden;
+        text-align: relative;
+        top: 20px;
+        margin-bottom: 2rem;
+        
+    }
+
+    .box-projeto {
+    
+        justify-content: center;
+        align-items: center;
+        min-height: 10px;
+        left: 200px;
+        top: 150px;
+        width: 100%;
+        float: left;
+        padding: 10px;
+        
+    }
+
+    .card-projeto {
+        height: 45rem;
+        width: 15rem;
+        padding: 20px 35px;
+        background: #1e01382e;
+        border-radius: 20px;
+        margin: 15px;
+        position: center;
+        overflow: hidden;
+        text-align: relative;
+        top: 20px;
+        margin-bottom: 2rem;
+        
+    }
+
+    .inicio .conteudo-inicio .texto-8 p {
+        font-size: 15px;
+    }
     
 }
 
