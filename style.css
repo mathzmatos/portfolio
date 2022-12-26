@@ -322,18 +322,18 @@ h5{
 
 
 
-@media (max-width: 1900px){
+@media (max-width: 1600px){
     
     .box {
     
         justify-content: center;
         align-items: center;
         min-height: 10px;
-        left: 200px;
+        left: 100px;
         top: 150px;
-        width: 30.6%;
-        float: left;
-        padding: 10px;
+        width: 94%;
+        padding: 2rem;
+        display: flex;
         
     }
 
@@ -359,9 +359,10 @@ h5{
         min-height: 10px;
         left: 200px;
         top: 150px;
-        width: 30.6%;
+        width: 45%;
         float: left;
         padding: 10px;
+        display: flex;
         
     }
 
@@ -379,6 +380,8 @@ h5{
         margin-bottom: 2rem;
         
     }
+
+   
 
 }
 
@@ -446,6 +449,8 @@ h5{
     .inicio .conteudo-inicio .texto-8 p {
         font-size: 15px;
     }
+
+
     
 }
 
