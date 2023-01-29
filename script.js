@@ -13,3 +13,10 @@ var typed = new Typed(".typing-2", {
     loop: true
 });
 
+var typed = new Typed(".typing-3", {
+    strings: ["C[loa]ding..."],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+    
+});
