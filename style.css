@@ -61,6 +61,12 @@ body{
     margin: 10px;
 }
 
+.box .card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transform: translateY(-20px);
+    transition: transform 0.3s ease-in-out;
+}
+
 .card {
     height: 26rem;
     width: 30rem;
@@ -100,6 +106,14 @@ body{
     padding: 10px;
     margin: 10px;
 }
+
+.box-projeto .card-projeto:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transform: translateY(-20px);
+    transition: transform 0.3s ease-in-out;
+}
+
+
 
 .card-projeto {
     height: 40rem;
