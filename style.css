@@ -7,30 +7,12 @@
 }
 
 img{
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    background: pink;
-    overflow: hidden;
-    margin-bottom: 2rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
     
     
-    
-}
-
-img{
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    object-position: center;
-    text-align: center;
     
 }
 
