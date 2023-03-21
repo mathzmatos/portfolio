@@ -7,7 +7,7 @@ var typed = new Typed(".typing", {
 
 
 var typed = new Typed(".typing-2", {
-    strings: ["C#", "C++", "HTML", "CSS", "JavaScript", "Python", "R"],
+    strings: ["C#", "C++", "HTML", "CSS", "JavaScript", "React.js", "Node.js", "Python", "R"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
